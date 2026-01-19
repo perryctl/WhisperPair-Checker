@@ -1,6 +1,6 @@
 # Whisper Pair Checker
 
-This repository can simply determine if you have any bluetooth devices that are vulnerable to WhisperPair. See  for more details: https://whisperpair.eu/ and https://www.cve.org/CVERecord?id=CVE-2025-36911
+This repository can simply determine if you have any bluetooth devices that are vulnerable to WhisperPair. For more details, see: https://whisperpair.eu/ and https://www.cve.org/CVERecord?id=CVE-2025-36911
 
 ## How to run this script
 - You must have a bluetooth chip on the computer you will be running this script on.
