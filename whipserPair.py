@@ -40,8 +40,8 @@ async def main():
         return
     
     print("*** Vulnerable devices detected! ***")
-    for addr, name in enumerate(seen_devices.items(), start=1):
-        print(f"device found: - {name} ({addr})")
+    for i, (addr, name) in enumerate(seen_devices.items(), start=1):
+        print(f"[{i}] Device found: {name} (Address: {addr})")
         # await unauthorized_pairing(addr)
     
 
